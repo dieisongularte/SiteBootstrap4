@@ -22,3 +22,10 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 300px;
+    text-align: justify;
+}
