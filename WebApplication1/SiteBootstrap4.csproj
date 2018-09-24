@@ -168,6 +168,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\mustang1.jpg" />
+    <Content Include="img\mustang2.jpg" />
+    <Content Include="img\mustang3.jpg" />
     <Content Include="img\SAM_2715.jpg" />
     <Content Include="img\SAM_7981.jpg" />
     <Content Include="img\SAM_8272.jpg" />
