@@ -2,7 +2,6 @@
     ViewBag.Title = "Home Page";
 }
 
-
 <!--Carossel-->
 <div id="carosselSite" class="carousel slide" data-ride="carousel">
 
@@ -67,7 +66,7 @@
     <div class="row">
 
         <div class="col-12 text-center my-5">
-            <h1 class="display-3">Lorem Ipsum</h1>
+            <h1 class="display-3"><i class="fas fa-code text-primary"></i>Lorem Ipsum</h1>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
         </div>
 
@@ -75,7 +74,7 @@
 
     <div class="row mb-5">
 
-        <div class="col-3">
+        <div class="col-sm-6 col-md-4 mb-3">
 
             <nav id="navbarVertical" class="navbar navbar-light bg-light">
 
@@ -100,7 +99,7 @@
 
         </div>
 
-        <div class="col-9">
+        <div class="col-sm-6 col-md-8">
 
             <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
 
@@ -163,11 +162,11 @@
     </div>
 
     <!--Card-->
-    <div class="row mb-5">
+    <div class="row justify-content-sm-center">
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
 
-            <div class="card">
+            <div class="card mb-5">
 
                 <img class="card-img-top" src="~/img/mustang1.jpg" alt="Mustang1" />
                 <div class="card-body">
@@ -197,9 +196,9 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
 
-            <div class="card">
+            <div class="card mb-5">
 
                 <img class="card-img-top" src="~/img/mustang2.jpg" alt="Mustang2" />
                 <div class="card-body">
@@ -229,9 +228,9 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
 
-            <div class="card">
+            <div class="card mb-5">
 
                 <img class="card-img-top" src="~/img/mustang3.jpg" alt="Mustang3" />
                 <div class="card-body">
@@ -247,7 +246,7 @@
                 </ul>
 
                 <div class="card-body">
-                    <a href="#" class="card-link">fact</a>
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">fact</a>
                     <a href="#" class="card-link">fact</a>
                 </div>
 
@@ -263,67 +262,227 @@
 
 </div>
 
-<!--
-#Button trigger modal
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-</button>
-
-#Modal
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Título do Modal</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                Woohoo, você está lendo este texto em um modal!
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+<!--Jumbotron Fluid-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4"><i class="fas fa-video text-primary"></i>Lorem Ipsum</h1>
+                <p class="lead">There are many variations of passages of Lorem Ipsum available</p>
+                <hr />
             </div>
         </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Lorem Ipsum</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Lorem Ipsum2</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Lorem Ipsum3</a>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content" id="nav-pills-content">
+
+                    <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0ilmIEnWvM8"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0ilmIEnWvM8"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0ilmIEnWvM8"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-</div>
-<br />
-<div class="card" style="width:18rem;">
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a herf="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
--->
-<!--
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+<!--Formulário-->
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <h1 class="display-4"><i class="fas fa-paper-plane text-primary"></i>Lorem Ipsum</h1>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+    <div class="row justify-content-center mb-5">
+
+        <div class="col-sm-12 col-md-10 col-lg-8">
+
+            <form>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-6">
+
+                        <label for="inputNome">Seu Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Nome" />
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputSobrenome">Seu sobrenome</label>
+                        <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" />
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-12">
+                        <label for="inputEnd">Seu endereço</label>
+                        <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo" />
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-6">
+                        <label for="inputCidade">Sua cidade</label>
+                        <input type="text" class="form-control" id="inputCidade" placeholder="Cidade" />
+                    </div>
+
+                    <div class="form-group col-sm-4">
+                        <label for="inputEst">Seu estado:</label>
+                        <select id="inputEst" class="form-control">
+                            <option selected>Escolha...</option>
+                            <option>MT</option>
+                            <option>RO</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-sm-2">
+                        <label for="inputCep">Seu cep:</label>
+                        <input type="text" id="inputCep" class="form-control" placeholder="Cep" />
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-sm-12">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" /> Desejo receber novidades por e-mail
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-primary" data-toggle="popover" title="popover title" data-content="test popover">Enviar</button>
+                        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+
 </div>
--->
+
+
+<!--Modal-->
+<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+
+    <div class="modal-dialog modal-lg" role="document">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Lorem Ipsum</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>Lorem Ipsum</h5>
+                            <p class="text-justify">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                                by injected humour, or randomised words which don't look even slightly believable.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <h5>Lorem Ipsum</h5>
+                            <p class="text-justify">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                                by injected humour, or randomised words which don't look even slightly believable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
